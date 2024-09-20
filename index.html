@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do meu pai perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Em um dia qualquer, perguntei para a minha mae sobre meu pai, ela disse que não sabia por onde ele estava e mandou eu ir procura-lo </p>
+            <button class="btn-proximo" data-proximo="1">São Paulo</button>
+            <button class="btn-proximo" data-proximo="2">Pindamonhagaba </button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em São Paulo, pegando o metro sacoma lotado as 6hrs da manhã para procura-lo</p>
+            <button class="btn-proximo" data-proximo="3">Procura-lo no Brás</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Pindamonhagaba, procurei meu pai em pontos turísticos </p>
+            <button class="btn-proximo" data-proximo="5">Explorar cracolandia</button>
+            <button class="btn-proximo" data-proximo="6">Explorar praias</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Na cracolandia, perguntei para os moradores sobre meu pai e nenhum soube responder.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para </button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Voltei para casa triste e decepcionado, por não encontrar nenhuma pista dele</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Entro no avião e vou para a cidade natal dele para procurar mais pistas</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Xique-Xique Bahia</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando e conversando com os moradores, eles me falaram pra ir no Bar do Zé</p>
+            <button class="btn-proximo" data-proximo="8">Ir para Bar do Zé</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Indo para lá, encontro uma bifurcação </p>
+            <button class="btn-proximo" data-proximo="9">Ir para Bar do Zé</button>
+            <button class="btn-proximo" data-proximo="10">Ir para ponte</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Voltar para Cracolândia</p>
+            <button class="btn-proximo" data-proximo="7">Ir para o beco</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O beco a seguir leva para um local de pouco acesso, tome cuidado!</p>
+            <button class="btn-proximo" data-proximo="11">Explorar local</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>No local, você achou casas abandonadas, e nenhum resquício de humanos</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e ir pra casa</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Em casa, você fala pra sua mãe que nao o encontrou, ela fica decepcionada</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você se arrepende e percebe que aprendeu uma lição de vida. Nunca vá atras do que te deixou!</p>
+            <button class="btn-proximo" data-proximo="11">Fim</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
